@@ -71,6 +71,7 @@ public class SdA {
 		for (int i = 0; i < n_layers; i++) { 						// layer-wise
 			for (int epoch = 0; epoch < epochs; epoch++) { 			// training epochs
 				for (int n = 0; n < N; n++) { 						// input x1...xN
+
 					// layer input
 					for (int l = 0; l <= i; l++) {
 
